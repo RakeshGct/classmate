@@ -2,46 +2,25 @@
 A comprehensive Flutter application for managing student attendance and assignments with Firebase backend integration. Built using Clean Architecture and BLoC state management pattern.
 
 
-
-
-
 ![WhatsApp Image 2026-01-21 at 3 05 06 PM](https://github.com/user-attachments/assets/5757cc46-3851-49eb-a095-31047394bb7a)
-
-
-
 
 
 ![WhatsApp Image 2026-01-21 at 3 04 56 PM](https://github.com/user-attachments/assets/5485f6f4-97d2-4298-b079-e51db6c8cf88)
 
 
-
-
-
 ![WhatsApp Image 2026-01-21 at 3 05 06 PM (1)](https://github.com/user-attachments/assets/821d2875-ef5a-48e2-b590-dc96b42547a5)
-
-
-
 
 
 ![WhatsApp Image 2026-01-21 at 3 05 06 PM (2)](https://github.com/user-attachments/assets/4768da01-0d61-4ca3-8bed-c758dfda01f8)
 
 
-
-
-
 ![WhatsApp Image 2026-01-21 at 3 05 07 PM](https://github.com/user-attachments/assets/1ea98675-d876-4da6-98d0-d262a4015a0d)
-
-
 
 
 ![WhatsApp Image 2026-01-21 at 3 05 07 PM (1)](https://github.com/user-attachments/assets/67e9b168-bbec-4186-bec8-4ed42150b99a)
 
 
-
-
 ![WhatsApp Image 2026-01-21 at 3 05 07 PM (2)](https://github.com/user-attachments/assets/9bb1b51b-f611-40cd-8079-bab1f61dfd79)
-
-
 
 
 
@@ -87,6 +66,7 @@ Confirmation dialogs for important actions
 Responsive design
 
 🏗️ Architecture
+
 This project follows Clean Architecture principles with clear separation of concerns:
 lib/
 ├── core/                    # Core functionality
@@ -105,6 +85,8 @@ lib/
     ├── bloc/              # BLoC state management
     ├── screens/           # UI screens
     └── widgets/           # Reusable widgets
+
+    
 Architecture Layers
 
 Presentation Layer: UI components, screens, and BLoC state management
