@@ -29,41 +29,42 @@ A comprehensive Flutter application for managing student attendance and assignme
 
 
 📱 Features
+
 🔐 Authentication
 
-Email/Password authentication using Firebase
-User registration with student details
-Persistent login sessions (stays logged in after app restart)
-Secure logout functionality
-Auto-navigation based on authentication state
+- Email/Password authentication using Firebase
+- User registration with student details
+- Persistent login sessions (stays logged in after app restart)
+- Secure logout functionality
+- Auto-navigation based on authentication state
 
 📊 Attendance Management
 
-Mark daily attendance (Present/Absent/Leave)
-Select specific dates for attendance marking
-Add optional remarks for each attendance entry
-View complete attendance history
-Color-coded status indicators
-Sort and filter attendance records
+- Mark daily attendance (Present/Absent/Leave)
+- Select specific dates for attendance marking
+- Add optional remarks for each attendance entry
+- View complete attendance history
+- Color-coded status indicators
+- Sort and filter attendance records
 
 📚 Assignment Management
 
-View all assigned assignments
-Upload assignment files (PDF, DOC, DOCX, TXT)
-Track assignment status (Pending/Submitted/Completed/Overdue)
-File size validation (max 10MB)
-Due date tracking with overdue indicators
-Firebase Storage integration for file uploads
+- View all assigned assignments
+- Upload assignment files (PDF, DOC, DOCX, TXT)
+- Track assignment status (Pending/Submitted/Completed/Overdue)
+- File size validation (max 10MB)
+- Due date tracking with overdue indicators
+- Firebase Storage integration for file uploads
 
 🎨 UI/UX Features
 
-Clean and intuitive Material Design interface
-Bottom navigation for easy access
-Color-coded status badges
-Loading states and progress indicators
-Error handling with user-friendly messages
-Confirmation dialogs for important actions
-Responsive design
+- Clean and intuitive Material Design interface
+- Bottom navigation for easy access
+- Color-coded status badges
+- Loading states and progress indicators
+- Error handling with user-friendly messages
+- Confirmation dialogs for important actions
+- Responsive design
 
 ##🏗️ Architecture
 
@@ -91,23 +92,23 @@ lib/
     
 Architecture Layers
 
-Presentation Layer: UI components, screens, and BLoC state management
-Domain Layer: Business logic, entities, and use cases
-Data Layer: Data sources, models, and repository implementations
+- Presentation Layer: UI components, screens, and BLoC state management
+- Domain Layer: Business logic, entities, and use cases
+- Data Layer: Data sources, models, and repository implementations
 
 🛠️ Tech Stack
 
-Framework: Flutter 3.0+
-Language: Dart 3.0+
-State Management: BLoC (flutter_bloc)
-Backend: Firebase
+- Framework: Flutter 3.0+
+- Language: Dart 3.0+
+- State Management: BLoC (flutter_bloc)
+- Backend: Firebase
 
 
 🚀 Getting Started
 Prerequisites
 
-Flutter SDK (3.0 or higher)
-Dart SDK (3.0 or higher)
-Firebase account
-Android Studio / VS Code
-Git
+- Flutter SDK (3.0 or higher)
+- Dart SDK (3.0 or higher)
+- Firebase account
+- Android Studio / VS Code
+- Git
