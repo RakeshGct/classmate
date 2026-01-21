@@ -65,9 +65,10 @@ Error handling with user-friendly messages
 Confirmation dialogs for important actions
 Responsive design
 
-🏗️ Architecture
+##🏗️ Architecture
 
 This project follows Clean Architecture principles with clear separation of concerns:
+```
 lib/
 ├── core/                    # Core functionality
 │   ├── constants/          # App-wide constants (colors, strings, styles)
@@ -85,6 +86,7 @@ lib/
     ├── bloc/              # BLoC state management
     ├── screens/           # UI screens
     └── widgets/           # Reusable widgets
+```
 
     
 Architecture Layers
